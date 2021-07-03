@@ -113,6 +113,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
+		/*color: #E27689;*/
 		line-height: 1.5em;
 	}
 
@@ -138,22 +139,24 @@ input, select, textarea {
 				color: #666;
 			}
 
-	h3 {
-		font-size: 1.5em;
+	h3.jy {
+		font-size: 2em;
+		/* color:aqua; */
 	}
 
-	h4 {
-		font-size: 0.9em;
+	h4.jy {
+		font-size: 1em;
 		line-height: 1.2em;
+		/*color:blueviolet;*/
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
-		header > p {
-			font-size: 0.8em;
-			margin: 1em 0 0 0;
+		header > p.hjy {
+			/*font-size: 0.8em;*/
+			margin: 0.5em 0 0 0;
 			line-height: 1.1em;
 		}
 
@@ -211,6 +214,18 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
+	}
+	p.jy {
+		margin-bottom: 1em;
+		line-height: 1.1em;
+		text-align: justify;
+	}
+
+	p.portjy {
+		font-size: 0.9em;
+		margin: 0.5em;
+		line-height: 1.1em;
+		text-align: justify;
 	}
 
 	br.clear {
@@ -1786,6 +1801,12 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
+		}
+
+		.image.leftabout-jy img {
+			float: left;
+			margin: 0 1em 1em 0;
+			width: 220px;
 		}
 
 		.image.centered {
